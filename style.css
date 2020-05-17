@@ -1,0 +1,131 @@
+/* APPEARANCE STYLES*/
+@import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900");
+
+.box {
+  font-size: 50px;
+  color: white;
+  padding: 10px;
+  text-align:center;
+  font-family: lato;
+  font-weight: 300;
+  box-sizing: border-box;
+  width: 33.33%;
+}
+
+.box2 {
+  font-size: 50px;
+  color: white;
+  padding: 10px;
+  text-align:center;
+  font-family: lato;
+  font-weight: 300;
+  box-sizing: border-box;
+  width: 20%;
+}
+
+
+.box-1 {
+  background: #e51400;
+}
+.box-2 {
+  background: #fa6800;
+}
+.box-3 {
+  background: #f0a30a;
+}
+.box-4 {background: #e3c800; }
+.box-5 {background: #a4c400;}
+.box-6 {background: #60a917;}
+.box-7 {background: #00aba9;}
+.box-8 {background: #1ba1e2;}
+.box-9 {background: #aa00ff;}
+
+/*  LAYOUT STYLES */
+.container1 {
+  display: flex;
+  border: 8px solid black;
+  height: 100vh;
+  width: 80vw;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+}
+
+.container2 {
+  display: flex;
+  border: 8px solid black;
+  height: 80vh;
+  width: 80vw;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+.box3 {
+  font-size: 50px;
+  color: white;
+  padding: 10px;
+  text-align:center;
+  font-family: lato;
+  font-weight: 300;
+  box-sizing: border-box;
+  width: 300px;
+}
+
+.container3{
+  display: flex;
+  border: 8px solid black;
+  height: 80vh;
+  width: 80vw;
+  flex-direction: column;
+  flex-wrap: wrap-reverse;
+/*   flex-wrap: wrap; */
+  justify-content: space-between;
+  align-items: center;
+}
+.box4{
+  font-size: 50px;
+  color: white;
+  padding: 10px;
+  text-align:center;
+  font-family: lato;
+  font-weight: 300;
+  box-sizing: border-box;
+  width: 400px;
+  height: 100px;
+}
+.container4{
+  display: flex;
+  box-sizing: border-box;
+  border: 8px solid black;
+  width: 80vw;
+  height: 80vh;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+/*   align-content: space-around; */
+/*   align-content: flex-end; */
+  justify-content:center;
+}
+
+.box5{
+  font-size: 50px;
+  color: white;
+  padding: 0px;
+  text-align:center;
+  font-family: lato;
+  font-weight: 300;
+  box-sizing: border-box;
+  flex-basis: 50%;
+}
+
+.box5:nth-child(3n){
+  flex: 100%;
+}
+
+
+.container5{
+  width:80vw;
+  height:100vh;
+  display: flex;
+  border: 8px solid black;
+  flex-wrap: wrap;
+}
